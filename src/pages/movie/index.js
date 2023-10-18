@@ -24,6 +24,8 @@ const Movie = () => {
             }); // eslint-disable-next-line
     }, []);
 
+ 
+
     return (
         <div>
             <nav>

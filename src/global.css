@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'League Spartan', sans-serif;
+  animation: fadeInUp 3s ease forwards, colorChange 1.5s ease forwards;
 }
 
 body {
@@ -10,8 +11,52 @@ body {
   color: white;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  background-image: url(https://i.pinimg.com/originals/2e/2a/60/2e2a605ab3c772b33c1c53734bd33891.jpg);
+}
+
+h1 {
+  color: transparent; /* Torna o texto do título transparente inicialmente */
+  font-size: 24px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes colorChange {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white; /* Cor branca */
+  }
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.sc-dkzDqf.kOnRrv {
+  background-color: #BF55EC; /* Fundo preto */
+  border-radius: 10px; /* Raio de 10px, ajuste conforme necessário */
+  padding: 10px; /* Espaçamento interno, ajuste conforme necessário */
+  color: #ffffff; /* Cor do texto branca, substitua pela cor desejada */
+  font-size: 16px; /* Tamanho da fonte, ajuste conforme necessário */
+  /* Outros estilos conforme necessário */
+}
+
+.sc-hKMtZM.lbuGAq {
+  background-color: #8A2BE2; /* Cor de fundo roxo ametista */
+  border: none; /* Remove a borda */
+  color: #ffffff; /* Cor do texto branca, substitua pela cor desejada */
+  padding: 10px 20px; /* Espaçamento interno, ajuste conforme necessário */
+  border-radius: 10px; /* Raio de 10px, ajuste conforme necessário */
+  font-size: 16px; /* Tamanho da fonte, ajuste conforme necessário */
 }
