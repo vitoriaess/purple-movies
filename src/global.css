@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-  color: transparent; /* Torna o texto do título transparente inicialmente */
-  font-size: 24px; /* Tamanho da fonte, ajuste conforme necessário */
+  color: transparent;
+  font-size: 24px; 
 }
 
 @keyframes fadeInUp {
@@ -35,7 +35,7 @@ h1 {
     color: transparent;
   }
   to {
-    color: white; /* Cor branca */
+    color: white; 
   }
 }
 
@@ -44,19 +44,19 @@ h1 {
 }
 
 .sc-dkzDqf.kOnRrv {
-  background-color: #BF55EC; /* Fundo preto */
-  border-radius: 10px; /* Raio de 10px, ajuste conforme necessário */
-  padding: 10px; /* Espaçamento interno, ajuste conforme necessário */
-  color: #ffffff; /* Cor do texto branca, substitua pela cor desejada */
-  font-size: 16px; /* Tamanho da fonte, ajuste conforme necessário */
-  /* Outros estilos conforme necessário */
+  background-color: #BF55EC; 
+  border-radius: 10px; 
+  padding: 10px; 
+  color: #ffffff; 
+  font-size: 16px; 
 }
 
 .sc-hKMtZM.lbuGAq {
-  background-color: #8A2BE2; /* Cor de fundo roxo ametista */
-  border: none; /* Remove a borda */
-  color: #ffffff; /* Cor do texto branca, substitua pela cor desejada */
-  padding: 10px 20px; /* Espaçamento interno, ajuste conforme necessário */
-  border-radius: 10px; /* Raio de 10px, ajuste conforme necessário */
-  font-size: 16px; /* Tamanho da fonte, ajuste conforme necessário */
+  background-color: #8A2BE2; 
+  border: none; 
+  color: #ffffff; 
+  padding: 10px 20px; 
+  border-radius: 10px; 
+  font-size: 16px;
 }
+
